@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="DarkKiller28" fetch="https://github.com/DarkKiller28" clone-depth="1" />
+    <remote name="potatogeek" fetch="https://github.com/potatogeek" clone-depth="1" />
+    <remote name="Fede2782" fetch="https://github.com/Fede2782" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/samsung/a34x" name="device_samsung_a34x" remote="DarkKiller28" revision="main" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/samsung/a34x" name="android_kernel_samsung_a34x" remote="Fede2782" revision="sep-15.1/connectivity-t-bsp" />
+
+    <!-- Vendor -->
+    <project path="vendor/samsung/a34x" name="lineage-vendor-a34x" remote="potatogeek" revision="a14" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.1" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-22.1" />
+
+</manifest>
